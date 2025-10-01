@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - Digital Bisnisku</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+    header {
+      text-align: center;
+      background: #222;
+      padding: 20px;
+    }
+    header img {
+      max-width: 100%;
+      height: auto;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 40px;
+      background: #fff;
+    }
+    .container img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    .product-info {
+      max-width: 500px;
+    }
+    .product-info img {
+      max-width: 120px;
+      margin-bottom: 10px;
+    }
+    .reasons {
+      padding: 40px;
+      background: #eee;
+    }
+    .reasons h2 {
+      text-align: center;
+    }
+    .download-section {
+      text-align: center;
+      padding: 40px;
+    }
+    .arrows {
+      animation: bounce 1s infinite;
+      font-size: 2rem;
+      color: green;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .download-btn {
+      background: linear-gradient(#28a745, #218838);
+      border: none;
+      color: white;
+      padding: 15px 40px;
+      font-size: 18px;
+      border-radius: 8px;
+      box-shadow: 0 5px #1e7e34;
+      cursor: pointer;
+    }
+    .download-btn:hover {
+      background: linear-gradient(#218838, #1c7430);
+    }
+    .cta {
+      text-align: center;
+      padding: 40px;
+      background: #fff;
+    }
+    .cta img {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+    .social-btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .instagram {
+      background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    }
+    .tiktok {
+      background: black;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="header.jpg" alt="Header Digital Bisnisku">
+  </header>
+
+  <!-- Produk Section -->
+  <section class="container">
+    <img src="flyer.jpg" alt="Flyer Produk">
+    <div class="product-info">
+      <img src="logo.png" alt="Logo Digital Bisnisku">
+      <h2>Mini Business Roadmap</h2>
+      <p>Panduan singkat, padat, dan tepat untuk memulai bisnis dari nol hingga berkembang. 
+      Didesain khusus untuk pengusaha pemula & mereka yang bingung menjalankan bisnis.</p>
+    </div>
+  </section>
+
+  <!-- Reasons -->
+  <section class="reasons">
+    <h2>Mengapa Harus Punya?</h2>
+    <ul>
+      <li><strong>Mengatasi Masalah:</strong> Bingung mulai bisnis, kebanjiran teori, takut rugi iklan.</li>
+      <li><strong>Nilai Tambah:</strong> Praktis, langsung ke inti, mudah dipraktikkan.</li>
+      <li><strong>Manfaat:</strong> Bisa mulai bisnis dari nol tanpa pusing teori.</li>
+    </ul>
+  </section>
+
+  <!-- Download -->
+  <section class="download-section">
+    <div class="arrows">⬇⬇⬇</div>
+    <a href="https://drive.google.com/drive/folders/1J0nftftwZYVlI8zb2L2m5ScYJCOzdaPt" target="_blank">
+      <button class="download-btn">DOWNLOAD NOW</button>
+    </a>
+  </section>
+
+  <!-- CTA + Sosial Media -->
+  <section class="cta">
+    <img src="logo.png" alt="Logo Digital Bisnisku">
+    <div>
+      <a href="https://instagram.com/digitalbisniski.id" class="social-btn instagram" target="_blank">Instagram @digitalbisniski.id</a>
+      <a href="https://tiktok.com/@digital_bisniski.id" class="social-btn tiktok" target="_blank">TikTok @digital_bisniski.id</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Digital Bisnisku. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
